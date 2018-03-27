@@ -101,17 +101,14 @@ li {
 a {
   color: #42b983;
 }
-
 .result {
   display: block;
   margin: 0;
   text-align: left;
 }
-
 .result em {
   display: block;
 }
-
 .search-input::placeholder {
   opacity: 0.5;
 }
