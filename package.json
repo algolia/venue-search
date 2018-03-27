@@ -17,7 +17,8 @@
     "lodash.uniqby": "^4.7.0",
     "node-env-file": "^0.1.8",
     "vue": "^2.5.2",
-    "vue-instantsearch": "^1.5.2"
+    "vue-instantsearch": "^1.5.2",
+    "vue2-google-maps": "^0.8.11"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

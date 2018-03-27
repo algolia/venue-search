@@ -2,7 +2,9 @@
   <div id="app">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/algolia-aerial@1.3.4/dist/aerial.css">
     <h1>🎺🎷🔎🍹</h1>
-    <h1>Find your next drink & beats...</h1>
+    <h1>For a good time, search {party}</h1>
+    <span class="text-regular">hello alex</span>
+
     <HelloWorld/>
   </div>
 
