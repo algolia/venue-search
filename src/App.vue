@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/algolia-aerial@1.3.4/dist/aerial.css">
+    <h1>🎺🎷🔎🍹</h1>
+    <h1>Find your next drink & beats...</h1>
     <HelloWorld/>
   </div>
+
 </template>
 
 <script>
