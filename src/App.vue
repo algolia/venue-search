@@ -11,14 +11,26 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Vue from 'vue';
+import HelloWorld from './components/HelloWorld';
+import InstantSearch from 'vue-instantsearch';
+import * as VueGoogleMaps from 'vue2-google-maps';
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'AIzaSyCdjcSqmKM2CdWDG1vXxVEc3Ml9b-gJ2PU'
+    // libraries: 'places', //// If you need to use place input
+  }
+});
+
+Vue.use(InstantSearch);
 
 export default {
   name: 'App',
   components: {
     HelloWorld
   }
-}
+};
 </script>
 
 <style>

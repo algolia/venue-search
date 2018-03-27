@@ -52,10 +52,69 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4cd2f39083e0721ebbfe5997"
+    "objectID": "4cd2f39083e0721ebbfe5997",
+    "_geoloc": {
+      "lat": 29.95009647775824,
+      "lng": -90.07061413911899
+    }
+  },
+  {
+    "id": "4dc2c930fa7608e86fe194c3",
+    "name": "Commerce Restaurant",
+    "contact": {},
+    "location": {
+      "lat": 29.95080921663917,
+      "lng": -90.06896734202655,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.95080921663917,
+          "lng": -90.06896734202655
+        }
+      ],
+      "distance": 134,
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "New Orleans, LA",
+        "United States"
+      ]
+    },
+    "categories": [],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 22,
+      "checkinsCount": 24
+    },
+    "hasMenu": true,
+    "menu": {
+      "type": "Menu",
+      "label": "Menu",
+      "anchor": "View Menu",
+      "url": "https://foursquare.com/v/commerce-restaurant/4dc2c930fa7608e86fe194c3/menu",
+      "mobileUrl": "https://foursquare.com/v/4dc2c930fa7608e86fe194c3/device_menu"
+    },
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4dc2c930fa7608e86fe194c3",
+    "_geoloc": {
+      "lat": 29.95080921663917,
+      "lng": -90.06896734202655
+    }
   },
   {
     "id": "4dcad5bed16495ca5af3d284",
@@ -114,61 +173,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4dcad5bed16495ca5af3d284"
-  },
-  {
-    "id": "4dc2c930fa7608e86fe194c3",
-    "name": "Commerce Restaurant",
-    "contact": {},
-    "location": {
-      "lat": 29.95080921663917,
-      "lng": -90.06896734202655,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.95080921663917,
-          "lng": -90.06896734202655
-        }
-      ],
-      "distance": 134,
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "New Orleans, LA",
-        "United States"
-      ]
-    },
-    "categories": [],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 22,
-      "checkinsCount": 24
-    },
-    "hasMenu": true,
-    "menu": {
-      "type": "Menu",
-      "label": "Menu",
-      "anchor": "View Menu",
-      "url": "https://foursquare.com/v/commerce-restaurant/4dc2c930fa7608e86fe194c3/menu",
-      "mobileUrl": "https://foursquare.com/v/4dc2c930fa7608e86fe194c3/device_menu"
-    },
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4dc2c930fa7608e86fe194c3"
+    "objectID": "4dcad5bed16495ca5af3d284",
+    "_geoloc": {
+      "lat": 29.949908632310635,
+      "lng": -90.0711108442158
+    }
   },
   {
     "id": "51ae0e647dd26a46116eaab4",
@@ -234,10 +246,14 @@
       "id": "57957785"
     },
     "storeId": "",
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "51ae0e647dd26a46116eaab4"
+    "objectID": "51ae0e647dd26a46116eaab4",
+    "_geoloc": {
+      "lat": 29.949346,
+      "lng": -90.069994
+    }
   },
   {
     "id": "58ae19d3951e7d3fdcf8ee0a",
@@ -290,10 +306,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "58ae19d3951e7d3fdcf8ee0a"
+    "objectID": "58ae19d3951e7d3fdcf8ee0a",
+    "_geoloc": {
+      "lat": 29.950029,
+      "lng": -90.068817
+    }
   },
   {
     "id": "4f032474b8f787cad431a734",
@@ -349,10 +369,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4f032474b8f787cad431a734"
+    "objectID": "4f032474b8f787cad431a734",
+    "_geoloc": {
+      "lat": 29.95084861818738,
+      "lng": -90.06925472812178
+    }
   },
   {
     "id": "51195979e4b0bae1b9e6de83",
@@ -408,90 +432,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "51195979e4b0bae1b9e6de83"
-  },
-  {
-    "id": "4ad4c04af964a52089f220e3",
-    "name": "InterContinental New Orleans",
-    "contact": {
-      "phone": "5045255566",
-      "formattedPhone": "(504) 525-5566",
-      "twitter": "interconhotel",
-      "facebook": "90015535776",
-      "facebookUsername": "intercontinental",
-      "facebookName": "InterContinental Hotels & Resorts"
-    },
-    "location": {
-      "address": "444 Saint Charles Ave",
-      "lat": 29.950293279312223,
-      "lng": -90.0696789914017,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.950293279312223,
-          "lng": -90.0696789914017
-        }
-      ],
-      "distance": 44,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "444 Saint Charles Ave",
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d1fa931735",
-        "name": "Hotel",
-        "pluralName": "Hotels",
-        "shortName": "Hotel",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": true,
-    "stats": {
-      "tipCount": 53,
-      "usersCount": 3499,
-      "checkinsCount": 10151
-    },
-    "url": "http://www.intercontinental.com",
-    "hasMenu": true,
-    "menu": {
-      "type": "Prices",
-      "label": "Prices",
-      "anchor": "View Prices",
-      "url": "https://foursquare.com/v/intercontinental-new-orleans/4ad4c04af964a52089f220e3/menu",
-      "mobileUrl": "https://foursquare.com/v/4ad4c04af964a52089f220e3/device_menu"
-    },
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "storeId": "MSYHA",
-    "referralId": "v-1522183813",
-    "venueChains": [
-      {
-        "id": "556a48c3a7c8957d73d66814"
-      }
-    ],
-    "hasPerk": false,
-    "objectID": "4ad4c04af964a52089f220e3"
+    "objectID": "51195979e4b0bae1b9e6de83",
+    "_geoloc": {
+      "lat": 29.95092736463759,
+      "lng": -90.0700849667015
+    }
   },
   {
     "id": "50ca02c7245f2d4aa8c2c94f",
@@ -568,10 +516,98 @@
       "items": []
     },
     "storeId": "MSYFQHF",
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "50ca02c7245f2d4aa8c2c94f"
+    "objectID": "50ca02c7245f2d4aa8c2c94f",
+    "_geoloc": {
+      "lat": 29.950645,
+      "lng": -90.070441
+    }
+  },
+  {
+    "id": "4ad4c04af964a52089f220e3",
+    "name": "InterContinental New Orleans",
+    "contact": {
+      "phone": "5045255566",
+      "formattedPhone": "(504) 525-5566",
+      "twitter": "interconhotel",
+      "facebook": "90015535776",
+      "facebookUsername": "intercontinental",
+      "facebookName": "InterContinental Hotels & Resorts"
+    },
+    "location": {
+      "address": "444 Saint Charles Ave",
+      "lat": 29.950293279312223,
+      "lng": -90.0696789914017,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.950293279312223,
+          "lng": -90.0696789914017
+        }
+      ],
+      "distance": 44,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "444 Saint Charles Ave",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d1fa931735",
+        "name": "Hotel",
+        "pluralName": "Hotels",
+        "shortName": "Hotel",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": true,
+    "stats": {
+      "tipCount": 53,
+      "usersCount": 3499,
+      "checkinsCount": 10152
+    },
+    "url": "http://www.intercontinental.com",
+    "hasMenu": true,
+    "menu": {
+      "type": "Prices",
+      "label": "Prices",
+      "anchor": "View Prices",
+      "url": "https://foursquare.com/v/intercontinental-new-orleans/4ad4c04af964a52089f220e3/menu",
+      "mobileUrl": "https://foursquare.com/v/4ad4c04af964a52089f220e3/device_menu"
+    },
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "storeId": "MSYHA",
+    "referralId": "v-1522186982",
+    "venueChains": [
+      {
+        "id": "556a48c3a7c8957d73d66814"
+      }
+    ],
+    "hasPerk": false,
+    "objectID": "4ad4c04af964a52089f220e3",
+    "_geoloc": {
+      "lat": 29.950293279312223,
+      "lng": -90.0696789914017
+    }
   },
   {
     "id": "4c8e21f84e95236a772279ca",
@@ -608,8 +644,8 @@
     "verified": false,
     "stats": {
       "tipCount": 91,
-      "usersCount": 19353,
-      "checkinsCount": 42679
+      "usersCount": 19354,
+      "checkinsCount": 42680
     },
     "url": "http://www.nola.gov",
     "venueRatingBlacklisted": true,
@@ -620,67 +656,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4c8e21f84e95236a772279ca"
-  },
-  {
-    "id": "4f7e2213e4b0c2f76350ea62",
-    "name": "St. Charles Ave. & Poydras",
-    "contact": {},
-    "location": {
-      "lat": 29.950752168610375,
-      "lng": -90.06992074226154,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.950752168610375,
-          "lng": -90.06992074226154
-        }
-      ],
-      "distance": 84,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d1fa931735",
-        "name": "Hotel",
-        "pluralName": "Hotels",
-        "shortName": "Hotel",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 32,
-      "checkinsCount": 52
-    },
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4f7e2213e4b0c2f76350ea62"
+    "objectID": "4c8e21f84e95236a772279ca",
+    "_geoloc": {
+      "lat": 29.94969165860109,
+      "lng": -90.07115364074707
+    }
   },
   {
     "id": "4b671ac7f964a520d53a2be3",
@@ -751,116 +734,48 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4b671ac7f964a520d53a2be3"
+    "objectID": "4b671ac7f964a520d53a2be3",
+    "_geoloc": {
+      "lat": 29.95176528824659,
+      "lng": -90.07061413922116
+    }
   },
   {
-    "id": "508019ba011c2fd84c09b3cd",
-    "name": "Blake Hotel New Orleans, BW Premier Collection",
-    "contact": {
-      "phone": "5045229000",
-      "formattedPhone": "(504) 522-9000",
-      "twitter": "thebestwestern",
-      "facebook": "358429220899513",
-      "facebookUsername": "blakehotelneworleans",
-      "facebookName": "Blake Hotel New Orleans, BW Premier Collection"
-    },
+    "id": "4cf3e9b48333224b6928188e",
+    "name": "Francis Hair Studio",
+    "contact": {},
     "location": {
-      "address": "500 Saint Charles Ave",
-      "lat": 29.9490537081783,
-      "lng": -90.07055416703224,
+      "lat": 29.94950091,
+      "lng": -90.07039567,
       "labeledLatLngs": [
         {
           "label": "display",
-          "lat": 29.9490537081783,
-          "lng": -90.07055416703224
+          "lat": 29.94950091,
+          "lng": -90.07039567
         }
       ],
-      "distance": 118,
+      "distance": 67,
       "postalCode": "70130",
       "cc": "US",
       "city": "New Orleans",
       "state": "LA",
       "country": "United States",
       "formattedAddress": [
-        "500 Saint Charles Ave",
         "New Orleans, LA 70130",
         "United States"
       ]
     },
     "categories": [
       {
-        "id": "4bf58dd8d48988d1fa931735",
-        "name": "Hotel",
-        "pluralName": "Hotels",
-        "shortName": "Hotel",
+        "id": "4bf58dd8d48988d130941735",
+        "name": "Building",
+        "pluralName": "Buildings",
+        "shortName": "Building",
         "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": true,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 13,
-      "checkinsCount": 21
-    },
-    "url": "https://www.bestwestern.com/en_US/book/hotel-rooms.19120.html?iata=00171890&ssob=BLBWI0003G",
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "508019ba011c2fd84c09b3cd"
-  },
-  {
-    "id": "4f327c8319836c91c7dc8117",
-    "name": "Go Fast - Shop Number 2",
-    "contact": {
-      "phone": "5045228490",
-      "formattedPhone": "(504) 522-8490"
-    },
-    "location": {
-      "address": "601 Poydras St",
-      "lat": 29.949665,
-      "lng": -90.070539,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.949665,
-          "lng": -90.070539
-        }
-      ],
-      "distance": 63,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "601 Poydras St",
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4d4b7105d754a06374d81259",
-        "name": "Food",
-        "pluralName": "Food",
-        "shortName": "Food",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
           "suffix": ".png"
         },
         "primary": true
@@ -869,8 +784,68 @@
     "verified": false,
     "stats": {
       "tipCount": 0,
-      "usersCount": 2,
-      "checkinsCount": 2
+      "usersCount": 11,
+      "checkinsCount": 19
+    },
+    "venueRatingBlacklisted": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4cf3e9b48333224b6928188e",
+    "_geoloc": {
+      "lat": 29.94950091,
+      "lng": -90.07039567
+    }
+  },
+  {
+    "id": "584a1de44ca49b33ed3e1935",
+    "name": "Fitness Center at Intercontinental Hotel",
+    "contact": {},
+    "location": {
+      "lat": 29.950636,
+      "lng": -90.069867,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.950636,
+          "lng": -90.069867
+        }
+      ],
+      "distance": 71,
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "New Orleans, LA",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d175941735",
+        "name": "Gym / Fitness Center",
+        "pluralName": "Gyms or Fitness Centers",
+        "shortName": "Gym / Fitness",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 6,
+      "checkinsCount": 7
     },
     "allowMenuUrlEdit": true,
     "beenHere": {
@@ -880,10 +855,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4f327c8319836c91c7dc8117"
+    "objectID": "584a1de44ca49b33ed3e1935",
+    "_geoloc": {
+      "lat": 29.950636,
+      "lng": -90.069867
+    }
   },
   {
     "id": "4e9f8629d22d6eead7d5c6ef",
@@ -946,35 +925,427 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4e9f8629d22d6eead7d5c6ef"
+    "objectID": "4e9f8629d22d6eead7d5c6ef",
+    "_geoloc": {
+      "lat": 29.949620275138177,
+      "lng": -90.06949706014893
+    }
   },
   {
-    "id": "50c239d2e4b0fd9800da0e03",
-    "name": "Bistreaux At The Bank",
+    "id": "4cd1a07b9d87224b3af15b3b",
+    "name": "Whitney National Bank - Main Office",
     "contact": {},
     "location": {
-      "address": "The Whitney Wyndham Hotel",
-      "crossStreet": "600 Poydras St",
-      "lat": 29.949581,
-      "lng": -90.069833,
+      "address": "228 Saint Charles Ave",
+      "crossStreet": "Gravier St.",
+      "lat": 29.95112977751339,
+      "lng": -90.06996753322892,
       "labeledLatLngs": [
         {
           "label": "display",
-          "lat": 29.949581,
-          "lng": -90.069833
+          "lat": 29.95112977751339,
+          "lng": -90.06996753322892
         }
       ],
-      "distance": 49,
+      "distance": 125,
       "postalCode": "70130",
       "cc": "US",
       "city": "New Orleans",
       "state": "LA",
       "country": "United States",
       "formattedAddress": [
-        "The Whitney Wyndham Hotel (600 Poydras St)",
+        "228 Saint Charles Ave (Gravier St.)",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d174941735",
+        "name": "Coworking Space",
+        "pluralName": "Coworking Spaces",
+        "shortName": "Coworking Space",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/office_coworkingspace_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 49,
+      "checkinsCount": 183
+    },
+    "venueRatingBlacklisted": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4cd1a07b9d87224b3af15b3b",
+    "_geoloc": {
+      "lat": 29.95112977751339,
+      "lng": -90.06996753322892
+    }
+  },
+  {
+    "id": "4f7e2213e4b0c2f76350ea62",
+    "name": "St. Charles Ave. & Poydras",
+    "contact": {},
+    "location": {
+      "lat": 29.950752168610375,
+      "lng": -90.06992074226154,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.950752168610375,
+          "lng": -90.06992074226154
+        }
+      ],
+      "distance": 84,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d1fa931735",
+        "name": "Hotel",
+        "pluralName": "Hotels",
+        "shortName": "Hotel",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 32,
+      "checkinsCount": 52
+    },
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4f7e2213e4b0c2f76350ea62",
+    "_geoloc": {
+      "lat": 29.950752168610375,
+      "lng": -90.06992074226154
+    }
+  },
+  {
+    "id": "510db710e4b0470c5f2bfac3",
+    "name": "camp St",
+    "contact": {},
+    "location": {
+      "lat": 29.950024415406613,
+      "lng": -90.07042254136705,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.950024415406613,
+          "lng": -90.07042254136705
+        }
+      ],
+      "distance": 40,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d1f9931735",
+        "name": "Road",
+        "pluralName": "Roads",
+        "shortName": "Road",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/highway_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 7,
+      "checkinsCount": 7
+    },
+    "venueRatingBlacklisted": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "510db710e4b0470c5f2bfac3",
+    "_geoloc": {
+      "lat": 29.950024415406613,
+      "lng": -90.07042254136705
+    }
+  },
+  {
+    "id": "4f327c8319836c91c7dc8117",
+    "name": "Go Fast - Shop Number 2",
+    "contact": {
+      "phone": "5045228490",
+      "formattedPhone": "(504) 522-8490"
+    },
+    "location": {
+      "address": "601 Poydras St",
+      "lat": 29.949665,
+      "lng": -90.070539,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.949665,
+          "lng": -90.070539
+        }
+      ],
+      "distance": 63,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "601 Poydras St",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4d4b7105d754a06374d81259",
+        "name": "Food",
+        "pluralName": "Food",
+        "shortName": "Food",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 2,
+      "checkinsCount": 2
+    },
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4f327c8319836c91c7dc8117",
+    "_geoloc": {
+      "lat": 29.949665,
+      "lng": -90.070539
+    }
+  },
+  {
+    "id": "58b05b2bef787f485bfaf085",
+    "name": "Sleepyville",
+    "contact": {},
+    "location": {
+      "lat": 29.950016,
+      "lng": -90.069828,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.950016,
+          "lng": -90.069828
+        }
+      ],
+      "distance": 16,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d130941735",
+        "name": "Building",
+        "pluralName": "Buildings",
+        "shortName": "Building",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 1,
+      "checkinsCount": 1
+    },
+    "private": true,
+    "venueRatingBlacklisted": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "58b05b2bef787f485bfaf085",
+    "_geoloc": {
+      "lat": 29.950016,
+      "lng": -90.069828
+    }
+  },
+  {
+    "id": "4b784b97f964a52012c32ee3",
+    "name": "Regions Bank",
+    "contact": {
+      "phone": "8007344667",
+      "formattedPhone": "(800) 734-4667",
+      "twitter": "askregions"
+    },
+    "location": {
+      "address": "301 Saint Charles Ave",
+      "crossStreet": "at Gravier St.",
+      "lat": 29.951439319669724,
+      "lng": -90.07025241851807,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.951439319669724,
+          "lng": -90.07025241851807
+        }
+      ],
+      "distance": 162,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "301 Saint Charles Ave (at Gravier St.)",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d10a951735",
+        "name": "Bank",
+        "pluralName": "Banks",
+        "shortName": "Bank",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/financial_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": true,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 45,
+      "checkinsCount": 130
+    },
+    "url": "http://www.regions.com",
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "storeId": "301 SAINT CHARLES",
+    "referralId": "v-1522186982",
+    "venueChains": [
+      {
+        "id": "556e119fa7c82e6b725012e2"
+      }
+    ],
+    "hasPerk": false,
+    "objectID": "4b784b97f964a52012c32ee3",
+    "_geoloc": {
+      "lat": 29.951439319669724,
+      "lng": -90.07025241851807
+    }
+  },
+  {
+    "id": "4c30108e3896e21e4e1ce590",
+    "name": "The Corner Pub",
+    "contact": {},
+    "location": {
+      "address": "500 Saint Charles Ave",
+      "crossStreet": "Poydras",
+      "lat": 29.949633862864545,
+      "lng": -90.07050465457225,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.949633862864545,
+          "lng": -90.07050465457225
+        }
+      ],
+      "distance": 63,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "500 Saint Charles Ave (Poydras)",
         "New Orleans, LA 70130",
         "United States"
       ]
@@ -995,8 +1366,8 @@
     "verified": false,
     "stats": {
       "tipCount": 0,
-      "usersCount": 53,
-      "checkinsCount": 65
+      "usersCount": 14,
+      "checkinsCount": 18
     },
     "allowMenuUrlEdit": true,
     "beenHere": {
@@ -1006,10 +1377,269 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "50c239d2e4b0fd9800da0e03"
+    "objectID": "4c30108e3896e21e4e1ce590",
+    "_geoloc": {
+      "lat": 29.949633862864545,
+      "lng": -90.07050465457225
+    }
+  },
+  {
+    "id": "51683d0fe4b0ee56c6626e5a",
+    "name": "Union & St Charles",
+    "contact": {},
+    "location": {
+      "lat": 29.951083,
+      "lng": -90.070265,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.951083,
+          "lng": -90.070265
+        }
+      ],
+      "distance": 123,
+      "cc": "US",
+      "state": "Louisiana",
+      "country": "United States",
+      "formattedAddress": [
+        "Louisiana",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4f4531504b9074f6e4fb0102",
+        "name": "Platform",
+        "pluralName": "Platforms",
+        "shortName": "Platform",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 6,
+      "checkinsCount": 6
+    },
+    "venueRatingBlacklisted": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "51683d0fe4b0ee56c6626e5a",
+    "_geoloc": {
+      "lat": 29.951083,
+      "lng": -90.070265
+    }
+  },
+  {
+    "id": "4c7978ae97028cfae443dbfe",
+    "name": "Cutting Edge Music Business Conference",
+    "contact": {},
+    "location": {
+      "address": "Westin Canal Place",
+      "lat": 29.949153,
+      "lng": -90.07051,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.949153,
+          "lng": -90.07051
+        }
+      ],
+      "distance": 106,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "Westin Canal Place",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d1e5931735",
+        "name": "Music Venue",
+        "pluralName": "Music Venues",
+        "shortName": "Music Venue",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 10,
+      "checkinsCount": 12
+    },
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4c7978ae97028cfae443dbfe",
+    "_geoloc": {
+      "lat": 29.949153,
+      "lng": -90.07051
+    }
+  },
+  {
+    "id": "4f3d49c7e4b0fa28e1077e4e",
+    "name": "Subway",
+    "contact": {
+      "phone": "5045245008",
+      "formattedPhone": "(504) 524-5008"
+    },
+    "location": {
+      "address": "701 Poydras St #135, New Orleans, LA 70130",
+      "lat": 29.949831613479148,
+      "lng": -90.07072150604893,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.949831613479148,
+          "lng": -90.07072150604893
+        }
+      ],
+      "distance": 72,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "701 Poydras St #135, New Orleans, LA 70130",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d1c5941735",
+        "name": "Sandwich Place",
+        "pluralName": "Sandwich Places",
+        "shortName": "Sandwiches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 42,
+      "checkinsCount": 123
+    },
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [
+      {
+        "id": "556e0bfaa7c82e6b724f552f"
+      }
+    ],
+    "hasPerk": false,
+    "objectID": "4f3d49c7e4b0fa28e1077e4e",
+    "_geoloc": {
+      "lat": 29.949831613479148,
+      "lng": -90.07072150604893
+    }
+  },
+  {
+    "id": "4e4ada08814db7ee31895936",
+    "name": "City Looks Salon",
+    "contact": {},
+    "location": {
+      "address": "337 Baronne St",
+      "lat": 29.951468058697515,
+      "lng": -90.07246173792213,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.951468058697515,
+          "lng": -90.07246173792213
+        }
+      ],
+      "distance": 288,
+      "postalCode": "70112",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "337 Baronne St",
+        "New Orleans, LA 70112",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d110951735",
+        "name": "Salon / Barbershop",
+        "pluralName": "Salons / Barbershops",
+        "shortName": "Salon / Barbershop",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/salon_barber_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 22,
+      "checkinsCount": 62
+    },
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4e4ada08814db7ee31895936",
+    "_geoloc": {
+      "lat": 29.951468058697515,
+      "lng": -90.07246173792213
+    }
   },
   {
     "id": "56e1370e498e0fbd1b307d7d",
@@ -1074,121 +1704,55 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [
       {
         "id": "556e58d8bd6a82902e28f280"
       }
     ],
     "hasPerk": false,
-    "objectID": "56e1370e498e0fbd1b307d7d"
+    "objectID": "56e1370e498e0fbd1b307d7d",
+    "_geoloc": {
+      "lat": 29.9498707,
+      "lng": -90.06978685
+    }
   },
   {
-    "id": "4b784b97f964a52012c32ee3",
-    "name": "Regions Bank",
-    "contact": {
-      "phone": "8007344667",
-      "formattedPhone": "(800) 734-4667",
-      "twitter": "askregions"
-    },
-    "location": {
-      "address": "301 Saint Charles Ave",
-      "crossStreet": "at Gravier St.",
-      "lat": 29.951439319669724,
-      "lng": -90.07025241851807,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.951439319669724,
-          "lng": -90.07025241851807
-        }
-      ],
-      "distance": 162,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "301 Saint Charles Ave (at Gravier St.)",
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d10a951735",
-        "name": "Bank",
-        "pluralName": "Banks",
-        "shortName": "Bank",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/financial_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": true,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 45,
-      "checkinsCount": 130
-    },
-    "url": "http://www.regions.com",
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "storeId": "301 SAINT CHARLES",
-    "referralId": "v-1522183813",
-    "venueChains": [
-      {
-        "id": "556e119fa7c82e6b725012e2"
-      }
-    ],
-    "hasPerk": false,
-    "objectID": "4b784b97f964a52012c32ee3"
-  },
-  {
-    "id": "4cd1a07b9d87224b3af15b3b",
-    "name": "Whitney National Bank - Main Office",
+    "id": "50c239d2e4b0fd9800da0e03",
+    "name": "Bistreaux At The Bank",
     "contact": {},
     "location": {
-      "address": "228 Saint Charles Ave",
-      "crossStreet": "Gravier St.",
-      "lat": 29.95112977751339,
-      "lng": -90.06996753322892,
+      "address": "The Whitney Wyndham Hotel",
+      "crossStreet": "600 Poydras St",
+      "lat": 29.949581,
+      "lng": -90.069833,
       "labeledLatLngs": [
         {
           "label": "display",
-          "lat": 29.95112977751339,
-          "lng": -90.06996753322892
+          "lat": 29.949581,
+          "lng": -90.069833
         }
       ],
-      "distance": 125,
+      "distance": 49,
       "postalCode": "70130",
       "cc": "US",
       "city": "New Orleans",
       "state": "LA",
       "country": "United States",
       "formattedAddress": [
-        "228 Saint Charles Ave (Gravier St.)",
+        "The Whitney Wyndham Hotel (600 Poydras St)",
         "New Orleans, LA 70130",
         "United States"
       ]
     },
     "categories": [
       {
-        "id": "4bf58dd8d48988d174941735",
-        "name": "Coworking Space",
-        "pluralName": "Coworking Spaces",
-        "shortName": "Coworking Space",
+        "id": "4bf58dd8d48988d116941735",
+        "name": "Bar",
+        "pluralName": "Bars",
+        "shortName": "Bar",
         "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/office_coworkingspace_",
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
           "suffix": ".png"
         },
         "primary": true
@@ -1197,64 +1761,8 @@
     "verified": false,
     "stats": {
       "tipCount": 0,
-      "usersCount": 49,
-      "checkinsCount": 183
-    },
-    "venueRatingBlacklisted": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4cd1a07b9d87224b3af15b3b"
-  },
-  {
-    "id": "584a1de44ca49b33ed3e1935",
-    "name": "Fitness Center at Intercontinental Hotel",
-    "contact": {},
-    "location": {
-      "lat": 29.950636,
-      "lng": -90.069867,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.950636,
-          "lng": -90.069867
-        }
-      ],
-      "distance": 71,
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "New Orleans, LA",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d175941735",
-        "name": "Gym / Fitness Center",
-        "pluralName": "Gyms or Fitness Centers",
-        "shortName": "Gym / Fitness",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 6,
-      "checkinsCount": 7
+      "usersCount": 53,
+      "checkinsCount": 65
     },
     "allowMenuUrlEdit": true,
     "beenHere": {
@@ -1264,67 +1772,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "584a1de44ca49b33ed3e1935"
-  },
-  {
-    "id": "50732afbe4b005f150d05280",
-    "name": "One Shell Square Stairs",
-    "contact": {},
-    "location": {
-      "lat": 29.94987104333283,
-      "lng": -90.07072818585374,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.94987104333283,
-          "lng": -90.07072818585374
-        }
-      ],
-      "distance": 71,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "503289d391d4c4b30a586d6a",
-        "name": "Climbing Gym",
-        "pluralName": "Climbing Gyms",
-        "shortName": "Climbing Gym",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 5,
-      "checkinsCount": 12
-    },
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "50732afbe4b005f150d05280"
+    "objectID": "50c239d2e4b0fd9800da0e03",
+    "_geoloc": {
+      "lat": 29.949581,
+      "lng": -90.069833
+    }
   },
   {
     "id": "4f8b1e7ce4b05ae88a689c41",
@@ -1378,283 +1833,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4f8b1e7ce4b05ae88a689c41"
-  },
-  {
-    "id": "51683d0fe4b0ee56c6626e5a",
-    "name": "Union & St Charles",
-    "contact": {},
-    "location": {
-      "lat": 29.951083,
-      "lng": -90.070265,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.951083,
-          "lng": -90.070265
-        }
-      ],
-      "distance": 123,
-      "cc": "US",
-      "state": "Louisiana",
-      "country": "United States",
-      "formattedAddress": [
-        "Louisiana",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4f4531504b9074f6e4fb0102",
-        "name": "Platform",
-        "pluralName": "Platforms",
-        "shortName": "Platform",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 6,
-      "checkinsCount": 6
-    },
-    "venueRatingBlacklisted": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "51683d0fe4b0ee56c6626e5a"
-  },
-  {
-    "id": "4cf3e9b48333224b6928188e",
-    "name": "Francis Hair Studio",
-    "contact": {},
-    "location": {
-      "lat": 29.94950091,
-      "lng": -90.07039567,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.94950091,
-          "lng": -90.07039567
-        }
-      ],
-      "distance": 67,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d130941735",
-        "name": "Building",
-        "pluralName": "Buildings",
-        "shortName": "Building",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 11,
-      "checkinsCount": 19
-    },
-    "venueRatingBlacklisted": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4cf3e9b48333224b6928188e"
-  },
-  {
-    "id": "4d154f6d6d103704daf028bd",
-    "name": "Finneggans Pub",
-    "contact": {},
-    "location": {
-      "address": "618 Gravier St",
-      "lat": 29.95124325,
-      "lng": -90.06951506666667,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.95124325,
-          "lng": -90.06951506666667
-        }
-      ],
-      "distance": 146,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "618 Gravier St",
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 3,
-      "checkinsCount": 3
-    },
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4d154f6d6d103704daf028bd"
-  },
-  {
-    "id": "510db710e4b0470c5f2bfac3",
-    "name": "camp St",
-    "contact": {},
-    "location": {
-      "lat": 29.950024415406613,
-      "lng": -90.07042254136705,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.950024415406613,
-          "lng": -90.07042254136705
-        }
-      ],
-      "distance": 40,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d1f9931735",
-        "name": "Road",
-        "pluralName": "Roads",
-        "shortName": "Road",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/highway_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 7,
-      "checkinsCount": 7
-    },
-    "venueRatingBlacklisted": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "510db710e4b0470c5f2bfac3"
-  },
-  {
-    "id": "58b05b2bef787f485bfaf085",
-    "name": "Sleepyville",
-    "contact": {},
-    "location": {
-      "lat": 29.950016,
-      "lng": -90.069828,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.950016,
-          "lng": -90.069828
-        }
-      ],
-      "distance": 16,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d130941735",
-        "name": "Building",
-        "pluralName": "Buildings",
-        "shortName": "Building",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 1,
-      "checkinsCount": 1
-    },
-    "private": true,
-    "venueRatingBlacklisted": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "58b05b2bef787f485bfaf085"
+    "objectID": "4f8b1e7ce4b05ae88a689c41",
+    "_geoloc": {
+      "lat": 29.95049291576667,
+      "lng": -90.06982038322732
+    }
   },
   {
     "id": "4caf702baef16dcba984a854",
@@ -1697,58 +1883,119 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4caf702baef16dcba984a854"
+    "objectID": "4caf702baef16dcba984a854",
+    "_geoloc": {
+      "lat": 29.950725,
+      "lng": -90.070741
+    }
   },
   {
-    "id": "4c30108e3896e21e4e1ce590",
-    "name": "The Corner Pub",
+    "id": "4d154f6d6d103704daf028bd",
+    "name": "Finneggans Pub",
     "contact": {},
+    "location": {
+      "address": "618 Gravier St",
+      "lat": 29.95124325,
+      "lng": -90.06951506666667,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.95124325,
+          "lng": -90.06951506666667
+        }
+      ],
+      "distance": 146,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "618 Gravier St",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 3,
+      "checkinsCount": 3
+    },
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4d154f6d6d103704daf028bd",
+    "_geoloc": {
+      "lat": 29.95124325,
+      "lng": -90.06951506666667
+    }
+  },
+  {
+    "id": "508019ba011c2fd84c09b3cd",
+    "name": "Blake Hotel New Orleans, BW Premier Collection",
+    "contact": {
+      "phone": "5045229000",
+      "formattedPhone": "(504) 522-9000",
+      "twitter": "thebestwestern",
+      "facebook": "358429220899513",
+      "facebookUsername": "blakehotelneworleans",
+      "facebookName": "Blake Hotel New Orleans, BW Premier Collection"
+    },
     "location": {
       "address": "500 Saint Charles Ave",
-      "crossStreet": "Poydras",
-      "lat": 29.949633862864545,
-      "lng": -90.07050465457225,
+      "lat": 29.9490537081783,
+      "lng": -90.07055416703224,
       "labeledLatLngs": [
         {
           "label": "display",
-          "lat": 29.949633862864545,
-          "lng": -90.07050465457225
+          "lat": 29.9490537081783,
+          "lng": -90.07055416703224
         }
       ],
-      "distance": 63,
+      "distance": 118,
       "postalCode": "70130",
       "cc": "US",
       "city": "New Orleans",
       "state": "LA",
       "country": "United States",
       "formattedAddress": [
-        "500 Saint Charles Ave (Poydras)",
+        "500 Saint Charles Ave",
         "New Orleans, LA 70130",
         "United States"
       ]
     },
     "categories": [
       {
-        "id": "4bf58dd8d48988d116941735",
-        "name": "Bar",
-        "pluralName": "Bars",
-        "shortName": "Bar",
+        "id": "4bf58dd8d48988d1fa931735",
+        "name": "Hotel",
+        "pluralName": "Hotels",
+        "shortName": "Hotel",
         "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
           "suffix": ".png"
         },
         "primary": true
       }
     ],
-    "verified": false,
+    "verified": true,
     "stats": {
       "tipCount": 0,
-      "usersCount": 14,
-      "checkinsCount": 18
+      "usersCount": 13,
+      "checkinsCount": 21
     },
+    "url": "https://www.bestwestern.com/en_US/book/hotel-rooms.19120.html?iata=00171890&ssob=BLBWI0003G",
     "allowMenuUrlEdit": true,
     "beenHere": {
       "lastCheckinExpiredAt": 0
@@ -1757,105 +2004,48 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4c30108e3896e21e4e1ce590"
+    "objectID": "508019ba011c2fd84c09b3cd",
+    "_geoloc": {
+      "lat": 29.9490537081783,
+      "lng": -90.07055416703224
+    }
   },
   {
-    "id": "4e4ada08814db7ee31895936",
-    "name": "City Looks Salon",
+    "id": "50732afbe4b005f150d05280",
+    "name": "One Shell Square Stairs",
     "contact": {},
     "location": {
-      "address": "337 Baronne St",
-      "lat": 29.951468058697515,
-      "lng": -90.07246173792213,
+      "lat": 29.94987104333283,
+      "lng": -90.07072818585374,
       "labeledLatLngs": [
         {
           "label": "display",
-          "lat": 29.951468058697515,
-          "lng": -90.07246173792213
+          "lat": 29.94987104333283,
+          "lng": -90.07072818585374
         }
       ],
-      "distance": 288,
-      "postalCode": "70112",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "337 Baronne St",
-        "New Orleans, LA 70112",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d110951735",
-        "name": "Salon / Barbershop",
-        "pluralName": "Salons / Barbershops",
-        "shortName": "Salon / Barbershop",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/salon_barber_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 22,
-      "checkinsCount": 62
-    },
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4e4ada08814db7ee31895936"
-  },
-  {
-    "id": "4c7978ae97028cfae443dbfe",
-    "name": "Cutting Edge Music Business Conference",
-    "contact": {},
-    "location": {
-      "address": "Westin Canal Place",
-      "lat": 29.949153,
-      "lng": -90.07051,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.949153,
-          "lng": -90.07051
-        }
-      ],
-      "distance": 106,
+      "distance": 71,
       "postalCode": "70130",
       "cc": "US",
       "city": "New Orleans",
       "state": "LA",
       "country": "United States",
       "formattedAddress": [
-        "Westin Canal Place",
         "New Orleans, LA 70130",
         "United States"
       ]
     },
     "categories": [
       {
-        "id": "4bf58dd8d48988d1e5931735",
-        "name": "Music Venue",
-        "pluralName": "Music Venues",
-        "shortName": "Music Venue",
+        "id": "503289d391d4c4b30a586d6a",
+        "name": "Climbing Gym",
+        "pluralName": "Climbing Gyms",
+        "shortName": "Climbing Gym",
         "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
           "suffix": ".png"
         },
         "primary": true
@@ -1864,7 +2054,7 @@
     "verified": false,
     "stats": {
       "tipCount": 0,
-      "usersCount": 10,
+      "usersCount": 5,
       "checkinsCount": 12
     },
     "allowMenuUrlEdit": true,
@@ -1875,49 +2065,50 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4c7978ae97028cfae443dbfe"
+    "objectID": "50732afbe4b005f150d05280",
+    "_geoloc": {
+      "lat": 29.94987104333283,
+      "lng": -90.07072818585374
+    }
   },
   {
-    "id": "4f3d49c7e4b0fa28e1077e4e",
-    "name": "Subway",
-    "contact": {
-      "phone": "5045245008",
-      "formattedPhone": "(504) 524-5008"
-    },
+    "id": "4da088b86fd2548108f3609b",
+    "name": "New Orleans Bar Association",
+    "contact": {},
     "location": {
-      "address": "701 Poydras St #135, New Orleans, LA 70130",
-      "lat": 29.949831613479148,
-      "lng": -90.07072150604893,
+      "address": "650 Poydras St Ste 1505",
+      "lat": 29.94960596714723,
+      "lng": -90.06972914796927,
       "labeledLatLngs": [
         {
           "label": "display",
-          "lat": 29.949831613479148,
-          "lng": -90.07072150604893
+          "lat": 29.94960596714723,
+          "lng": -90.06972914796927
         }
       ],
-      "distance": 72,
+      "distance": 51,
       "postalCode": "70130",
       "cc": "US",
       "city": "New Orleans",
       "state": "LA",
       "country": "United States",
       "formattedAddress": [
-        "701 Poydras St #135, New Orleans, LA 70130",
+        "650 Poydras St Ste 1505",
         "New Orleans, LA 70130",
         "United States"
       ]
     },
     "categories": [
       {
-        "id": "4bf58dd8d48988d1c5941735",
-        "name": "Sandwich Place",
-        "pluralName": "Sandwich Places",
-        "shortName": "Sandwiches",
+        "id": "4bf58dd8d48988d124941735",
+        "name": "Office",
+        "pluralName": "Offices",
+        "shortName": "Office",
         "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
           "suffix": ".png"
         },
         "primary": true
@@ -1926,10 +2117,10 @@
     "verified": false,
     "stats": {
       "tipCount": 0,
-      "usersCount": 42,
-      "checkinsCount": 123
+      "usersCount": 16,
+      "checkinsCount": 204
     },
-    "allowMenuUrlEdit": true,
+    "venueRatingBlacklisted": true,
     "beenHere": {
       "lastCheckinExpiredAt": 0
     },
@@ -1937,14 +2128,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
-    "venueChains": [
-      {
-        "id": "556e0bfaa7c82e6b724f552f"
-      }
-    ],
+    "referralId": "v-1522186982",
+    "venueChains": [],
     "hasPerk": false,
-    "objectID": "4f3d49c7e4b0fa28e1077e4e"
+    "objectID": "4da088b86fd2548108f3609b",
+    "_geoloc": {
+      "lat": 29.94960596714723,
+      "lng": -90.06972914796927
+    }
   },
   {
     "id": "51f69e79498e85c80b10e293",
@@ -2001,131 +2192,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "51f69e79498e85c80b10e293"
-  },
-  {
-    "id": "4da088b86fd2548108f3609b",
-    "name": "New Orleans Bar Association",
-    "contact": {},
-    "location": {
-      "address": "650 Poydras St Ste 1505",
-      "lat": 29.94960596714723,
-      "lng": -90.06972914796927,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.94960596714723,
-          "lng": -90.06972914796927
-        }
-      ],
-      "distance": 51,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "650 Poydras St Ste 1505",
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d124941735",
-        "name": "Office",
-        "pluralName": "Offices",
-        "shortName": "Office",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 16,
-      "checkinsCount": 204
-    },
-    "venueRatingBlacklisted": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4da088b86fd2548108f3609b"
-  },
-  {
-    "id": "59c2b248e2d4aa205b51cfda",
-    "name": "Plauché Masell Parkerson Llp",
-    "contact": {},
-    "location": {
-      "address": "701 Poydras St",
-      "lat": 29.94999,
-      "lng": -90.07115,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.94999,
-          "lng": -90.07115
-        }
-      ],
-      "distance": 110,
-      "postalCode": "70139",
-      "cc": "US",
-      "neighborhood": "Central Business District",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "701 Poydras St",
-        "New Orleans, LA 70139",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "52f2ab2ebcbc57f1066b8b3f",
-        "name": "Lawyer",
-        "pluralName": "Lawyers",
-        "shortName": "Lawyer",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/education/lawschool_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 3,
-      "checkinsCount": 24
-    },
-    "url": "http://www.pmpllp.com",
-    "venueRatingBlacklisted": true,
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "59c2b248e2d4aa205b51cfda"
+    "objectID": "51f69e79498e85c80b10e293",
+    "_geoloc": {
+      "lat": 29.947443,
+      "lng": -90.070289
+    }
   },
   {
     "id": "4ae1fd69f964a520818921e3",
@@ -2193,10 +2267,147 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4ae1fd69f964a520818921e3"
+    "objectID": "4ae1fd69f964a520818921e3",
+    "_geoloc": {
+      "lat": 29.949988856852286,
+      "lng": -90.07099277558278
+    }
+  },
+  {
+    "id": "4b5df3b5f964a520af7529e3",
+    "name": "Roly Poly Sandwiches",
+    "contact": {
+      "phone": "5045619800",
+      "formattedPhone": "(504) 561-9800"
+    },
+    "location": {
+      "address": "701 Poydras St",
+      "crossStreet": "One Shell Square",
+      "lat": 29.94986241966242,
+      "lng": -90.07101017852177,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.94986241966242,
+          "lng": -90.07101017852177
+        }
+      ],
+      "distance": 98,
+      "postalCode": "70139",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "701 Poydras St (One Shell Square)",
+        "New Orleans, LA 70139",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d1c5941735",
+        "name": "Sandwich Place",
+        "pluralName": "Sandwich Places",
+        "shortName": "Sandwiches",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 1,
+      "usersCount": 104,
+      "checkinsCount": 297
+    },
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4b5df3b5f964a520af7529e3",
+    "_geoloc": {
+      "lat": 29.94986241966242,
+      "lng": -90.07101017852177
+    }
+  },
+  {
+    "id": "59c2b248e2d4aa205b51cfda",
+    "name": "Plauché Masell Parkerson Llp",
+    "contact": {},
+    "location": {
+      "address": "701 Poydras St",
+      "lat": 29.94999,
+      "lng": -90.07115,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.94999,
+          "lng": -90.07115
+        }
+      ],
+      "distance": 110,
+      "postalCode": "70139",
+      "cc": "US",
+      "neighborhood": "Central Business District",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "701 Poydras St",
+        "New Orleans, LA 70139",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "52f2ab2ebcbc57f1066b8b3f",
+        "name": "Lawyer",
+        "pluralName": "Lawyers",
+        "shortName": "Lawyer",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/education/lawschool_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 3,
+      "checkinsCount": 24
+    },
+    "url": "http://www.pmpllp.com",
+    "venueRatingBlacklisted": true,
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "59c2b248e2d4aa205b51cfda",
+    "_geoloc": {
+      "lat": 29.94999,
+      "lng": -90.07115
+    }
   },
   {
     "id": "4d6bff4a3a6bf04df06a5a7d",
@@ -2265,10 +2476,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4d6bff4a3a6bf04df06a5a7d"
+    "objectID": "4d6bff4a3a6bf04df06a5a7d",
+    "_geoloc": {
+      "lat": 29.950931553930236,
+      "lng": -90.06890497244943
+    }
   },
   {
     "id": "5290c26f498eecb6c7024722",
@@ -2321,73 +2536,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "5290c26f498eecb6c7024722"
-  },
-  {
-    "id": "4b5df3b5f964a520af7529e3",
-    "name": "Roly Poly Sandwiches",
-    "contact": {
-      "phone": "5045619800",
-      "formattedPhone": "(504) 561-9800"
-    },
-    "location": {
-      "address": "701 Poydras St",
-      "crossStreet": "One Shell Square",
-      "lat": 29.94986241966242,
-      "lng": -90.07101017852177,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.94986241966242,
-          "lng": -90.07101017852177
-        }
-      ],
-      "distance": 98,
-      "postalCode": "70139",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "701 Poydras St (One Shell Square)",
-        "New Orleans, LA 70139",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d1c5941735",
-        "name": "Sandwich Place",
-        "pluralName": "Sandwich Places",
-        "shortName": "Sandwiches",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 1,
-      "usersCount": 104,
-      "checkinsCount": 297
-    },
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4b5df3b5f964a520af7529e3"
+    "objectID": "5290c26f498eecb6c7024722",
+    "_geoloc": {
+      "lat": 29.950688,
+      "lng": -90.070525
+    }
   },
   {
     "id": "5aaa734097461737f90270a9",
@@ -2451,69 +2607,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "5aaa734097461737f90270a9"
-  },
-  {
-    "id": "5325ce89498e4b47fd3cf1d7",
-    "name": "Hilton St. Charles Fitness Center",
-    "contact": {},
-    "location": {
-      "address": "333 Saint Charles Ave",
-      "lat": 29.950684154708192,
-      "lng": -90.07046815979271,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.950684154708192,
-          "lng": -90.07046815979271
-        }
-      ],
-      "distance": 88,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "333 Saint Charles Ave",
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d175941735",
-        "name": "Gym / Fitness Center",
-        "pluralName": "Gyms or Fitness Centers",
-        "shortName": "Gym / Fitness",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 12,
-      "checkinsCount": 25
-    },
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "5325ce89498e4b47fd3cf1d7"
+    "objectID": "5aaa734097461737f90270a9",
+    "_geoloc": {
+      "lat": 29.9491637,
+      "lng": -90.0699209
+    }
   },
   {
     "id": "4c09228bbbc676b09e9f47d5",
@@ -2572,105 +2673,50 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4c09228bbbc676b09e9f47d5"
+    "objectID": "4c09228bbbc676b09e9f47d5",
+    "_geoloc": {
+      "lat": 29.9504697231596,
+      "lng": -90.07031305736658
+    }
   },
   {
-    "id": "54962fdd498ef9572f8dd763",
-    "name": "trenasse",
+    "id": "5325ce89498e4b47fd3cf1d7",
+    "name": "Hilton St. Charles Fitness Center",
     "contact": {},
     "location": {
-      "address": "444 Saint Charles Ave",
-      "crossStreet": "at Perdido St",
-      "lat": 29.95055639466099,
-      "lng": -90.07010603521005,
+      "address": "333 Saint Charles Ave",
+      "lat": 29.950684154708192,
+      "lng": -90.07046815979271,
       "labeledLatLngs": [
         {
           "label": "display",
-          "lat": 29.95055639466099,
-          "lng": -90.07010603521005
+          "lat": 29.950684154708192,
+          "lng": -90.07046815979271
         }
       ],
-      "distance": 62,
+      "distance": 88,
       "postalCode": "70130",
       "cc": "US",
       "city": "New Orleans",
       "state": "LA",
       "country": "United States",
       "formattedAddress": [
-        "444 Saint Charles Ave (at Perdido St)",
+        "333 Saint Charles Ave",
         "New Orleans, LA 70130",
         "United States"
       ]
     },
     "categories": [
       {
-        "id": "4bf58dd8d48988d17a941735",
-        "name": "Cajun / Creole Restaurant",
-        "pluralName": "Cajun / Creole Restaurants",
-        "shortName": "Cajun / Creole",
+        "id": "4bf58dd8d48988d175941735",
+        "name": "Gym / Fitness Center",
+        "pluralName": "Gyms or Fitness Centers",
+        "shortName": "Gym / Fitness",
         "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cajun_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 12,
-      "usersCount": 533,
-      "checkinsCount": 619
-    },
-    "url": "http://www.trenasse.com",
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "54962fdd498ef9572f8dd763"
-  },
-  {
-    "id": "4eb2eca9e3005cfba02be0dc",
-    "name": "Central Business District",
-    "contact": {},
-    "location": {
-      "lat": 29.949244126107875,
-      "lng": -90.06971090094368,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.949244126107875,
-          "lng": -90.06971090094368
-        }
-      ],
-      "distance": 88,
-      "postalCode": "70114",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "New Orleans, LA 70114",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4f2a25ac4b909258e854f55f",
-        "name": "Neighborhood",
-        "pluralName": "Neighborhoods",
-        "shortName": "Neighborhood",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_",
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
           "suffix": ".png"
         },
         "primary": true
@@ -2679,10 +2725,10 @@
     "verified": false,
     "stats": {
       "tipCount": 0,
-      "usersCount": 170,
-      "checkinsCount": 613
+      "usersCount": 12,
+      "checkinsCount": 25
     },
-    "venueRatingBlacklisted": true,
+    "allowMenuUrlEdit": true,
     "beenHere": {
       "lastCheckinExpiredAt": 0
     },
@@ -2690,10 +2736,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4eb2eca9e3005cfba02be0dc"
+    "objectID": "5325ce89498e4b47fd3cf1d7",
+    "_geoloc": {
+      "lat": 29.950684154708192,
+      "lng": -90.07046815979271
+    }
   },
   {
     "id": "575a03bc498efb4adf7e602b",
@@ -2758,14 +2808,144 @@
       "items": []
     },
     "storeId": "1014805",
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [
       {
         "id": "556f676fbd6a75a99038d8ec"
       }
     ],
     "hasPerk": false,
-    "objectID": "575a03bc498efb4adf7e602b"
+    "objectID": "575a03bc498efb4adf7e602b",
+    "_geoloc": {
+      "lat": 29.94960208445135,
+      "lng": -90.07027635291064
+    }
+  },
+  {
+    "id": "4eb2eca9e3005cfba02be0dc",
+    "name": "Central Business District",
+    "contact": {},
+    "location": {
+      "lat": 29.949244126107875,
+      "lng": -90.06971090094368,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.949244126107875,
+          "lng": -90.06971090094368
+        }
+      ],
+      "distance": 88,
+      "postalCode": "70114",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "New Orleans, LA 70114",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4f2a25ac4b909258e854f55f",
+        "name": "Neighborhood",
+        "pluralName": "Neighborhoods",
+        "shortName": "Neighborhood",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 0,
+      "usersCount": 170,
+      "checkinsCount": 613
+    },
+    "venueRatingBlacklisted": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4eb2eca9e3005cfba02be0dc",
+    "_geoloc": {
+      "lat": 29.949244126107875,
+      "lng": -90.06971090094368
+    }
+  },
+  {
+    "id": "54962fdd498ef9572f8dd763",
+    "name": "trenasse",
+    "contact": {},
+    "location": {
+      "address": "444 Saint Charles Ave",
+      "crossStreet": "at Perdido St",
+      "lat": 29.95055639466099,
+      "lng": -90.07010603521005,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.95055639466099,
+          "lng": -90.07010603521005
+        }
+      ],
+      "distance": 62,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "444 Saint Charles Ave (at Perdido St)",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d17a941735",
+        "name": "Cajun / Creole Restaurant",
+        "pluralName": "Cajun / Creole Restaurants",
+        "shortName": "Cajun / Creole",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cajun_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 12,
+      "usersCount": 534,
+      "checkinsCount": 621
+    },
+    "url": "http://www.trenasse.com",
+    "allowMenuUrlEdit": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "54962fdd498ef9572f8dd763",
+    "_geoloc": {
+      "lat": 29.95055639466099,
+      "lng": -90.07010603521005
+    }
   },
   {
     "id": "4ad4c04af964a52079f220e3",
@@ -2838,73 +3018,18 @@
       "items": []
     },
     "storeId": "MSYFQHF",
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [
       {
         "id": "556e146fa7c82e6b725097d5"
       }
     ],
     "hasPerk": false,
-    "objectID": "4ad4c04af964a52079f220e3"
-  },
-  {
-    "id": "4c10257db93cc9b6ff5056e0",
-    "name": "Pete's Bar @ Hotel InterContinental",
-    "contact": {},
-    "location": {
-      "address": "444 Saint Charles Ave",
-      "lat": 29.950332009187687,
-      "lng": -90.0698431921665,
-      "labeledLatLngs": [
-        {
-          "label": "display",
-          "lat": 29.950332009187687,
-          "lng": -90.0698431921665
-        }
-      ],
-      "distance": 39,
-      "postalCode": "70130",
-      "cc": "US",
-      "city": "New Orleans",
-      "state": "LA",
-      "country": "United States",
-      "formattedAddress": [
-        "444 Saint Charles Ave",
-        "New Orleans, LA 70130",
-        "United States"
-      ]
-    },
-    "categories": [
-      {
-        "id": "4bf58dd8d48988d1d5941735",
-        "name": "Hotel Bar",
-        "pluralName": "Hotel Bars",
-        "shortName": "Hotel Bar",
-        "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_bar_",
-          "suffix": ".png"
-        },
-        "primary": true
-      }
-    ],
-    "verified": false,
-    "stats": {
-      "tipCount": 0,
-      "usersCount": 149,
-      "checkinsCount": 228
-    },
-    "allowMenuUrlEdit": true,
-    "beenHere": {
-      "lastCheckinExpiredAt": 0
-    },
-    "specials": {
-      "count": 0,
-      "items": []
-    },
-    "referralId": "v-1522183813",
-    "venueChains": [],
-    "hasPerk": false,
-    "objectID": "4c10257db93cc9b6ff5056e0"
+    "objectID": "4ad4c04af964a52079f220e3",
+    "_geoloc": {
+      "lat": 29.9506648683,
+      "lng": -90.0703846822
+    }
   },
   {
     "id": "4af329c5f964a52050eb21e3",
@@ -2989,10 +3114,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4af329c5f964a52050eb21e3"
+    "objectID": "4af329c5f964a52050eb21e3",
+    "_geoloc": {
+      "lat": 29.949096521327114,
+      "lng": -90.07073754835979
+    }
   },
   {
     "id": "4af18d49f964a52050e121e3",
@@ -3049,47 +3178,50 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4af18d49f964a52050e121e3"
+    "objectID": "4af18d49f964a52050e121e3",
+    "_geoloc": {
+      "lat": 29.94894508126462,
+      "lng": -90.07011233750978
+    }
   },
   {
-    "id": "4b268680f964a520e07c24e3",
-    "name": "Pan-American Life Building",
+    "id": "4c10257db93cc9b6ff5056e0",
+    "name": "Pete's Bar @ Hotel InterContinental",
     "contact": {},
     "location": {
-      "address": "601 Poydras St",
-      "crossStreet": "Camp",
-      "lat": 29.949919647115046,
-      "lng": -90.0698595874683,
+      "address": "444 Saint Charles Ave",
+      "lat": 29.950332009187687,
+      "lng": -90.0698431921665,
       "labeledLatLngs": [
         {
           "label": "display",
-          "lat": 29.949919647115046,
-          "lng": -90.0698595874683
+          "lat": 29.950332009187687,
+          "lng": -90.0698431921665
         }
       ],
-      "distance": 16,
+      "distance": 39,
       "postalCode": "70130",
       "cc": "US",
       "city": "New Orleans",
       "state": "LA",
       "country": "United States",
       "formattedAddress": [
-        "601 Poydras St (Camp)",
+        "444 Saint Charles Ave",
         "New Orleans, LA 70130",
         "United States"
       ]
     },
     "categories": [
       {
-        "id": "4bf58dd8d48988d124941735",
-        "name": "Office",
-        "pluralName": "Offices",
-        "shortName": "Office",
+        "id": "4bf58dd8d48988d1d5941735",
+        "name": "Hotel Bar",
+        "pluralName": "Hotel Bars",
+        "shortName": "Hotel Bar",
         "icon": {
-          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_bar_",
           "suffix": ".png"
         },
         "primary": true
@@ -3097,11 +3229,11 @@
     ],
     "verified": false,
     "stats": {
-      "tipCount": 6,
-      "usersCount": 408,
-      "checkinsCount": 2324
+      "tipCount": 0,
+      "usersCount": 149,
+      "checkinsCount": 228
     },
-    "venueRatingBlacklisted": true,
+    "allowMenuUrlEdit": true,
     "beenHere": {
       "lastCheckinExpiredAt": 0
     },
@@ -3109,10 +3241,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183813",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4b268680f964a520e07c24e3"
+    "objectID": "4c10257db93cc9b6ff5056e0",
+    "_geoloc": {
+      "lat": 29.950332009187687,
+      "lng": -90.0698431921665
+    }
   },
   {
     "id": "5325d001498e4b179677a455",
@@ -3169,10 +3305,14 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183814",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "5325d001498e4b179677a455"
+    "objectID": "5325d001498e4b179677a455",
+    "_geoloc": {
+      "lat": 29.95062126937635,
+      "lng": -90.07042407989502
+    }
   },
   {
     "id": "4d57ecb71901224b388e84a6",
@@ -3230,9 +3370,77 @@
       "count": 0,
       "items": []
     },
-    "referralId": "v-1522183815",
+    "referralId": "v-1522186982",
     "venueChains": [],
     "hasPerk": false,
-    "objectID": "4d57ecb71901224b388e84a6"
+    "objectID": "4d57ecb71901224b388e84a6",
+    "_geoloc": {
+      "lat": 29.950757546406088,
+      "lng": -90.07047728348435
+    }
+  },
+  {
+    "id": "4b268680f964a520e07c24e3",
+    "name": "Pan-American Life Building",
+    "contact": {},
+    "location": {
+      "address": "601 Poydras St",
+      "crossStreet": "Camp",
+      "lat": 29.949919647115046,
+      "lng": -90.0698595874683,
+      "labeledLatLngs": [
+        {
+          "label": "display",
+          "lat": 29.949919647115046,
+          "lng": -90.0698595874683
+        }
+      ],
+      "distance": 16,
+      "postalCode": "70130",
+      "cc": "US",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "formattedAddress": [
+        "601 Poydras St (Camp)",
+        "New Orleans, LA 70130",
+        "United States"
+      ]
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d124941735",
+        "name": "Office",
+        "pluralName": "Offices",
+        "shortName": "Office",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "tipCount": 6,
+      "usersCount": 408,
+      "checkinsCount": 2324
+    },
+    "venueRatingBlacklisted": true,
+    "beenHere": {
+      "lastCheckinExpiredAt": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "referralId": "v-1522186982",
+    "venueChains": [],
+    "hasPerk": false,
+    "objectID": "4b268680f964a520e07c24e3",
+    "_geoloc": {
+      "lat": 29.949919647115046,
+      "lng": -90.0698595874683
+    }
   }
 ]

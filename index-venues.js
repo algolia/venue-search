@@ -8,7 +8,7 @@ const client = algoliasearch(
   process.env.ALGOLIA_APPLICATION_ID,
   process.env.ALGOLIA_API_KEY
 );
-const index = client.initIndex('venues_tmp');
+const index = client.initIndex('venues');
 
 const foursquare = require('foursquarevenues')(
   process.env.CLIENT_ID,
@@ -49,6 +49,10 @@ async function main(times) {
 
   globalVenues = uniqBy(globalVenues, venue => venue.id).map(venue => {
     venue.objectID = venue.id;
+    venue._geoloc = {
+      lat: venue.location.lat,
+      lng: venue.location.lng
+    };
     return venue;
   });
 
