@@ -4,7 +4,7 @@
     <div class="w100p">
       <!-- <span class="text-heading">🎺🔎🍹🎷</span> -->
       <img src="./assets/necklace.png" width="9%" height="2%">
-      <h1>Vue New Orleans</h1>
+      <h1>Vue Orleans</h1>
       <span class="text-bg">The most relevant search for 🍻 and 🎷</span>
     </div>
 
