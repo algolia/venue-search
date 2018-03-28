@@ -138,7 +138,7 @@ a {
   float: left;
 }
 
-.ais-refinement-list__label {
+.ais-refinement-list__value {
   padding: 6px 24px;
   background: rgba(0,0,0,0.05);
   border-radius: 32px;
@@ -157,11 +157,11 @@ a {
   display: none;
 }
 
-.ais-refinement-list--item__active .ais-refinement-list--label {
-  background: #00AEFF;
-  color: #fff;
-  
+.ais-refinement-list__item.ais-refinement-list__item--active .ais-refinement-list__value {
+  background: rgb(184,69,146);
+  color: #FFFFFF;  
 }
+
 
 /* copied from the instantsearch theme located at
    https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.0/dist/instantsearch-theme-algolia.css */
