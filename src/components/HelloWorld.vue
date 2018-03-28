@@ -112,7 +112,7 @@ a {
 }
 
 .ais-results em {
-  background-color: rgb(255,193,104);
+  background-color:  rgb(255, 255, 51);
 }
 
 .ais-highlight {
@@ -121,7 +121,6 @@ a {
 }
 
 .ais-refinement-list {
-  max-width: 70%;
   margin: 0 auto 40px auto;
   display: flex;
   justify-content: center;
