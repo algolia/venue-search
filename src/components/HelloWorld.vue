@@ -1,7 +1,7 @@
-<template>
+<template class="app-container">
   <ais-index
-    :app-id="applicationId"
-    :api-key="apiKey"
+    v-if="loaded"
+    :search-store="searchStore"
     :index-name="indexName"
   > 
     <div class="hello">
@@ -26,7 +26,7 @@
       </div>
 
       <div class="flex-container flex-dir-row">
-        <div class="elevation1 p-large fill-white m-l-r-auto radius6 text-center flex-it-2 hfull">
+        <div class="elevation1 p-large fill-white m-l-r-auto radius6 text-center flex-it-2  m-small">
           <ul id="hits">
             <ais-results>
               <template slot-scope="{ result }">
@@ -44,9 +44,9 @@
             :center="{lat:30, lng:-90.3}"
             :zoom="12"
             map-type-id="terrain"
-            style="width: 600px; height: 800px;"
+            style="width: 100%; height: 100vh;"
           >
-            <ais-results>
+            <ais-results ref="results">
               <template slot-scope="{ result }">
                 <gmap-marker :position="result._geoloc"></gmap-marker>
               </template>
@@ -66,18 +66,47 @@
 </template>
 
 <script>
+import { loaded } from 'vue2-google-maps';
+import { createFromAlgoliaCredentials } from 'vue-instantsearch';
+
+const searchStore = createFromAlgoliaCredentials(
+  'Y8X7A3GQF1',
+  '4b932dcfb48a5d22cfd59de26add8e2c'
+);
+
 export default {
   name: 'HelloWorld',
   data() {
     return {
+      loaded: false,
       msg: 'Welcome to Your Vue.js App',
-      apiKey: '4b932dcfb48a5d22cfd59de26add8e2c',
-      applicationId: 'Y8X7A3GQF1',
+      searchStore,
       indexName: 'venues'
     };
   },
+  methods: {
+    fitBounds() {
+      const bounds = new google.maps.LatLngBounds();
+
+      this.markers.forEach(marker => bounds.extend(marker));
+      this.$refs.map.fitBounds(bounds);
+      this.$refs.map.panToBounds(bounds);
+    }
+  },
+  computed: {
+    markers() {
+      return this.searchStore._results.map(result => result._geoloc);
+    }
+  },
   mounted() {
-    this.$refs.map.resize();
+    loaded.then(() => (this.loaded = true));
+  },
+  watch: {
+    'searchStore._results': {
+      handler() {
+        this.fitBounds();
+      }
+    }
   }
 };
 </script>
