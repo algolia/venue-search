@@ -10,10 +10,17 @@ const client = algoliasearch(
 );
 const index = client.initIndex('venues');
 
+const zomato = require('zomato').createClient({
+  userKey: process.env.ZOMATO_API_KEY
+});
+
 const foursquare = require('foursquarevenues')(
   process.env.CLIENT_ID,
   process.env.CLIENT_SECRET
 );
+
+const categoryId =
+  '56aa371be4b08b9a8d5734db,4bf58dd8d48988d1e5931735,5267e4d9e4b0ec79466e48d1,52741d85e4b0d5d1e3c6a6d9,4bf58dd8d48988d155941735,52e81612bcbc57f1066b7a06,4d4b7105d754a06376d81259';
 
 async function reindex(objects) {
   await index.clearIndex();
@@ -25,17 +32,16 @@ async function reindex(objects) {
 async function main(times) {
   let globalVenues = [];
 
-  for (var i = times; i > 0; i--) {
+  for (var i = times; i > 0; i = i - 100) {
     console.log(`processing batch ${i}`);
-
     const venues = await new Promise((accept, reject) =>
       foursquare.getVenues(
         {
+          near: 'New Orleans',
           intent: 'browse',
-          // near: 'new orleans',
-          ll: '29.95,-90.07',
           radius: times,
-          limit: 50
+          limit: 50,
+          categoryId
         },
         (err, data) => {
           if (err) console.log('error', err);
@@ -59,11 +65,14 @@ async function main(times) {
   fs.writeFileSync('venues.json', JSON.stringify(globalVenues, null, 2));
 }
 
+function restaurants() {
+  zomato.getCities({ q: 'New Orleans' }, (err, data) => console.log(data));
+}
+
 function reindexFromFile() {
   const content = JSON.parse(fs.readFileSync('venues.json'));
   reindex(content).then(() => console.log('done!'));
-  // console.log(content.length);
 }
 
-// main(150);
+// main(1000);
 reindexFromFile();

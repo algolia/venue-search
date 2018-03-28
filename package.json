@@ -18,7 +18,8 @@
     "node-env-file": "^0.1.8",
     "vue": "^2.5.2",
     "vue-instantsearch": "^1.5.2",
-    "vue2-google-maps": "^0.8.11"
+    "vue2-google-maps": "^0.8.11",
+    "zomato": "^1.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

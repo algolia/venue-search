@@ -112,11 +112,11 @@ a {
 }
 
 .ais-results em {
-  background-color:  rgb(255, 255, 51);
+  background-color: rgb(255, 255, 51);
 }
 
 .ais-highlight {
-  color: rgb(184,69,146);
+  color: rgb(184, 69, 146);
   font-weight: bold;
 }
 
@@ -124,6 +124,8 @@ a {
   margin: 0 auto 40px auto;
   display: flex;
   justify-content: center;
+  max-width: 60%;
+  flex-wrap: inherit;
 }
 
 .ais-refinement-list__count {
@@ -138,18 +140,22 @@ a {
   float: left;
 }
 
+.ais-refinement-list__label {
+  white-space: nowrap;
+}
+
 .ais-refinement-list__value {
   padding: 6px 24px;
-  background: rgba(0,0,0,0.05);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 32px;
   color: #555;
-  cursor:pointer;
+  cursor: pointer;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
-  
+
   &:hover {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -157,24 +163,23 @@ a {
   display: none;
 }
 
-.ais-refinement-list__item.ais-refinement-list__item--active .ais-refinement-list__value {
-  background: rgb(184,69,146);
-  color: #FFFFFF;  
+.ais-refinement-list__item.ais-refinement-list__item--active
+  .ais-refinement-list__value {
+  background: rgb(184, 69, 146);
+  color: #ffffff;
 }
-
 
 /* copied from the instantsearch theme located at
    https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.0/dist/instantsearch-theme-algolia.css */
 .ais-pagination {
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0 1px 1px 0 rgba(85, 95, 110, 0.2);
-          box-shadow: 0 1px 1px 0 rgba(85, 95, 110, 0.2);
-  border: solid 1px #D4D8E3;
+  box-shadow: 0 1px 1px 0 rgba(85, 95, 110, 0.2);
+  border: solid 1px #d4d8e3;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   padding: 8px 16px;
-  width: 0 auto; 
+  width: 0 auto;
 }
-
 </style>
