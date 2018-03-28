@@ -1,4 +1,4 @@
-<template>
+<template class="app-container">
   <ais-index
     v-if="loaded"
     :search-store="searchStore"
@@ -26,7 +26,7 @@
       </div>
 
       <div class="flex-container flex-dir-row">
-        <div class="elevation1 p-large fill-white m-l-r-auto radius6 text-center flex-it-2 hfull">
+        <div class="elevation1 p-large fill-white m-l-r-auto radius6 text-center flex-it-2  m-small">
           <ul id="hits">
             <ais-results>
               <template slot-scope="{ result }">
@@ -44,7 +44,7 @@
             :center="{lat:30, lng:-90.3}"
             :zoom="12"
             map-type-id="terrain"
-            style="width: 600px; height: 800px;"
+            style="width: 100%; height: 100vh;"
           >
             <ais-results ref="results">
               <template slot-scope="{ result }">
