@@ -22,7 +22,7 @@ import * as VueGoogleMaps from 'vue2-google-maps';
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyCdjcSqmKM2CdWDG1vXxVEc3Ml9b-gJ2PU'
-    // libraries: 'places', //// If you need to use place input
+    // libraries: 'places', //// If you need to use place inpu,
   }
 });
 
@@ -47,11 +47,10 @@ export default {
 }
 
 h1 {
-  color:rgb(184,69,146) !important;
+  color: rgb(184, 69, 146) !important;
 }
 
 .text-bg {
-  color: rgb(28,199,208)
+  color: rgb(28, 199, 208);
 }
-
 </style>

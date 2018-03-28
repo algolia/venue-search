@@ -1,7 +1,7 @@
 <template>
   <ais-index
-    :app-id="applicationId"
-    :api-key="apiKey"
+    v-if="loaded"
+    :search-store="searchStore"
     :index-name="indexName"
   > 
     <div class="hello">
@@ -46,7 +46,7 @@
             map-type-id="terrain"
             style="width: 600px; height: 800px;"
           >
-            <ais-results>
+            <ais-results ref="results">
               <template slot-scope="{ result }">
                 <gmap-marker :position="result._geoloc"></gmap-marker>
               </template>
@@ -66,18 +66,47 @@
 </template>
 
 <script>
+import { loaded } from 'vue2-google-maps';
+import { createFromAlgoliaCredentials } from 'vue-instantsearch';
+
+const searchStore = createFromAlgoliaCredentials(
+  'Y8X7A3GQF1',
+  '4b932dcfb48a5d22cfd59de26add8e2c'
+);
+
 export default {
   name: 'HelloWorld',
   data() {
     return {
+      loaded: false,
       msg: 'Welcome to Your Vue.js App',
-      apiKey: '4b932dcfb48a5d22cfd59de26add8e2c',
-      applicationId: 'Y8X7A3GQF1',
+      searchStore,
       indexName: 'venues'
     };
   },
+  methods: {
+    fitBounds() {
+      const bounds = new google.maps.LatLngBounds();
+
+      this.markers.forEach(marker => bounds.extend(marker));
+      this.$refs.map.fitBounds(bounds);
+      this.$refs.map.panToBounds(bounds);
+    }
+  },
+  computed: {
+    markers() {
+      return this.searchStore._results.map(result => result._geoloc);
+    }
+  },
   mounted() {
-    this.$refs.map.resize();
+    loaded.then(() => (this.loaded = true));
+  },
+  watch: {
+    'searchStore._results': {
+      handler() {
+        this.fitBounds();
+      }
+    }
   }
 };
 </script>
@@ -112,11 +141,11 @@ a {
 }
 
 .ais-results em {
-  background-color:  rgb(255, 255, 51);
+  background-color: rgb(255, 255, 51);
 }
 
 .ais-highlight {
-  color: rgb(184,69,146);
+  color: rgb(184, 69, 146);
   font-weight: bold;
 }
 
@@ -140,16 +169,16 @@ a {
 
 .ais-refinement-list__label {
   padding: 6px 24px;
-  background: rgba(0,0,0,0.05);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 32px;
   color: #555;
-  cursor:pointer;
+  cursor: pointer;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
-  
+
   &:hover {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -158,23 +187,21 @@ a {
 }
 
 .ais-refinement-list--item__active .ais-refinement-list--label {
-  background: #00AEFF;
+  background: #00aeff;
   color: #fff;
-  
 }
 
 /* copied from the instantsearch theme located at
    https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.0/dist/instantsearch-theme-algolia.css */
 .ais-pagination {
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0 1px 1px 0 rgba(85, 95, 110, 0.2);
-          box-shadow: 0 1px 1px 0 rgba(85, 95, 110, 0.2);
-  border: solid 1px #D4D8E3;
+  box-shadow: 0 1px 1px 0 rgba(85, 95, 110, 0.2);
+  border: solid 1px #d4d8e3;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   padding: 8px 16px;
-  width: 0 auto; 
+  width: 0 auto;
 }
-
 </style>
