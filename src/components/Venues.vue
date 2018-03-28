@@ -19,8 +19,6 @@
 
       <div class="spacer16"></div>
 
-      
-      
       <div class="w100p flex-dir-row">
         <ais-refinement-list attribute-name="categories.name"></ais-refinement-list>
       </div>
@@ -30,7 +28,7 @@
           <ul id="hits">
             <ais-results>
               <template slot-scope="{ result }">
-                <li class="result">
+                <li class="result" @click="zoomOnPinLocation(result)">
                   <span class="name"><ais-highlight :result="result" attribute-name="name"></ais-highlight></span>
                   <p class="address">{{ result.location.address }}</p>
                 </li>
@@ -46,9 +44,12 @@
             map-type-id="terrain"
             style="width: 100%; height: 100vh;"
           >
-            <ais-results ref="results">
-              <template slot-scope="{ result }">
-                <gmap-marker :position="result._geoloc"></gmap-marker>
+            <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen" @closeclick="infoWinOpen=false">
+              {{infoContent}}
+            </gmap-info-window>
+            <ais-results>
+              <template slot-scope="{ result, index }">
+                <gmap-marker :position="result._geoloc" :clickable="true" @click="toggleInfoWindow(result, index)"></gmap-marker>
               </template>
             </ais-results>
           </gmap-map>
@@ -75,27 +76,69 @@ const searchStore = createFromAlgoliaCredentials(
 );
 
 export default {
-  name: 'HelloWorld',
   data() {
     return {
       loaded: false,
-      msg: 'Welcome to Your Vue.js App',
       searchStore,
-      indexName: 'venues'
+      indexName: 'venues',
+      infoContent: '',
+      infoWindowPos: {
+        lat: 0,
+        lng: 0
+      },
+      infoWinOpen: false,
+      currentMidx: null,
+      infoOptions: {
+        pixelOffset: {
+          width: 0,
+          height: -35
+        }
+      }
     };
   },
   methods: {
     fitBounds() {
       const bounds = new google.maps.LatLngBounds();
 
-      this.markers.forEach(marker => bounds.extend(marker));
+      this.markers.forEach(marker => bounds.extend(marker._geoloc));
       this.$refs.map.fitBounds(bounds);
       this.$refs.map.panToBounds(bounds);
+    },
+    zoomOnPinLocation(venue) {
+      let marker = this.markers.filter(
+        marker => marker.objectID === venue.objectID
+      );
+
+      if (marker.length) {
+        marker = marker[0];
+      }
+
+      const bounds = new google.maps.LatLngBounds();
+
+      bounds.extend(marker._geoloc);
+      this.$refs.map.fitBounds(bounds);
+      this.$refs.map.panToBounds(bounds);
+      this.toggleInfoWindow(marker, this.markers.indexOf(marker));
+    },
+    toggleInfoWindow: function(marker, idx) {
+      this.infoWindowPos = marker._geoloc;
+      this.infoContent = marker.name;
+
+      if (this.currentMidx == idx) {
+        this.infoWinOpen = !this.infoWinOpen;
+      } else {
+        this.infoWinOpen = true;
+        this.currentMidx = idx;
+      }
     }
   },
   computed: {
     markers() {
-      return this.searchStore._results.map(result => result._geoloc);
+      return this.searchStore._results.map(result => ({
+        objectID: result.objectID,
+        name: result.name,
+        _geoloc: result._geoloc
+      }));
     }
   },
   mounted() {
@@ -111,7 +154,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 h1,
 h2 {
@@ -134,6 +176,7 @@ a {
   margin: 0;
   text-align: left;
   font-style: bold;
+  cursor: pointer;
 }
 
 .search-input::placeholder {

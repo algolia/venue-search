@@ -8,21 +8,20 @@
       <span class="text-bg">The most relevant search for 🍻 and 🎷</span>
     </div>
 
-    <HelloWorld/>
+    <Venues />
   </div>
 
 </template>
 
 <script>
 import Vue from 'vue';
-import HelloWorld from './components/HelloWorld';
+import Venues from './components/Venues';
 import InstantSearch from 'vue-instantsearch';
 import * as VueGoogleMaps from 'vue2-google-maps';
 
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyCdjcSqmKM2CdWDG1vXxVEc3Ml9b-gJ2PU'
-    // libraries: 'places', //// If you need to use place inpu,
   }
 });
 
@@ -31,7 +30,7 @@ Vue.use(InstantSearch);
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Venues
   }
 };
 </script>
