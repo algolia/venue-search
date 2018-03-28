@@ -19,13 +19,12 @@
 
       <div class="spacer16"></div>
 
-      <div class="w100p">
-        <div class="facets">
-          <div class="facet">
-            <div id="tags"></div>
-          </div>
-        </div>
+      
+      
+      <div class="w100p flex-dir-row">
+        <ais-refinement-list attribute-name="categories.name"></ais-refinement-list>
       </div>
+
       <div class="flex-container flex-dir-row">
         <div class="elevation1 p-large fill-white m-l-r-auto radius6 text-center flex-it-2 hfull">
           <ul id="hits">
@@ -112,13 +111,6 @@ a {
   opacity: 0.5;
 }
 
-#tags {
-  max-width: 70%;
-  margin: 0 auto 40px auto;
-  display: flex;
-  justify-content: center;
-}
-
 .ais-results em {
   background-color: rgb(255,193,104);
 }
@@ -128,19 +120,26 @@ a {
   font-weight: bold;
 }
 
-.ais-refinement-list--count {
+.ais-refinement-list {
+  max-width: 70%;
+  margin: 0 auto 40px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.ais-refinement-list__count {
   display: none;
 }
 
-.ais-refinement-list--list {
+.ais-refinement-list__list {
 }
 
-.ais-refinement-list--item {
+.ais-refinement-list__item {
   margin: 0 16px 24px 0;
   float: left;
 }
 
-.ais-refinement-list--label {
+.ais-refinement-list__label {
   padding: 6px 24px;
   background: rgba(0,0,0,0.05);
   border-radius: 32px;
@@ -153,6 +152,10 @@ a {
   &:hover {
     background: rgba(0,0,0,0.1);
   }
+}
+
+.ais-refinement-list__checkbox {
+  display: none;
 }
 
 .ais-refinement-list--item__active .ais-refinement-list--label {
