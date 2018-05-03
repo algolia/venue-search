@@ -20,7 +20,7 @@
       <div class="spacer16"></div>
 
       <div class="w100p flex-dir-row">
-        <ais-refinement-list attribute-name="categories.name"></ais-refinement-list>
+        <ais-refinement-list attribute-name="categories.title"></ais-refinement-list>
       </div>
 
       <div class="flex-container flex-dir-row">
@@ -29,8 +29,15 @@
             <ais-results>
               <template slot-scope="{ result }">
                 <li class="result" @click="zoomOnPinLocation(result)">
-                  <span class="name"><ais-highlight :result="result" attribute-name="name"></ais-highlight></span>
-                  <p class="address">{{ result.location.address }}</p>
+                  <div class= "img-wrapper">
+                    <img :src="result.image_url"/>
+                  </div>
+                  <div class="details">
+                    <span class="name"><ais-highlight :result="result" attribute-name="name"></ais-highlight></span>
+                    <p class="address">{{ result.location.address1 }}</p>
+                    <p class="address">{{ result.location.address2 }}</p>
+                    <p class="address">{{ result.location.city }}, {{ result.location.state }} {{ result.location.zip_code }}</p>
+                  </div>
                 </li>
               </template>
             </ais-results>
@@ -80,7 +87,7 @@ export default {
     return {
       loaded: false,
       searchStore,
-      indexName: 'venues',
+      indexName: 'venues_search_test',
       infoContent: '',
       infoWindowPos: {
         lat: 0,
@@ -108,14 +115,19 @@ export default {
       let marker = this.markers.filter(
         marker => marker.objectID === venue.objectID
       );
+      console.log(venue);
+      console.log(marker);
 
       if (marker.length) {
         marker = marker[0];
       }
 
       const bounds = new google.maps.LatLngBounds();
+      // const loc = new google.maps.LatLng(marker._geoloc.lat, marker._geoloc.lng);
 
       bounds.extend(marker._geoloc);
+      console.log(bounds);
+
       this.$refs.map.fitBounds(bounds);
       this.$refs.map.panToBounds(bounds);
       this.toggleInfoWindow(marker, this.markers.indexOf(marker));
@@ -177,6 +189,27 @@ a {
   text-align: left;
   font-style: bold;
   cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.result .details {
+  display: inline-block;
+}
+
+.result .img-wrapper img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.result .img-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 15px;
+  border-radius: 2px;
 }
 
 .search-input::placeholder {
